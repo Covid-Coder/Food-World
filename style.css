@@ -1,12 +1,18 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif, 'Atma', cursive, 'Baloo Da 2', cursive;
+    background-color: whitesmoke;
 }
 section{
     height: 500px;
     padding-bottom: 150px;
+    
 }
-
+table{
+    background-image: url(images/background\ images.png);
+    margin: 0%;
+    background-repeat: no-repeat;
+}  
 .first-section{
     width:50%;
     float: left;
