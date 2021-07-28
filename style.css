@@ -1,18 +1,17 @@
 body{
     margin: 0;
-    font-family: 'Poppins', sans-serif, 'Atma', cursive;
+    font-family: 'Poppins', sans-serif, 'Atma', cursive, 'Baloo Da 2', cursive;
 }
 section{
     height: 500px;
     padding-bottom: 150px;
 }
 
-.half-width{
+.first-section{
     width:50%;
     float: left;
     margin-left: 80px;
     padding-left: 5%;
-    
 }
 #image-01{
     margin-right: 50px;
@@ -23,11 +22,13 @@ section{
 h1{
     font-size: 50px;
     font-family: 'Atma', cursive;
-   
 }
 
 h1 span{
     color: orange;
+}
+p{
+    font-family: 'Baloo Da 2', cursive;
 }
 
 #welcome{
@@ -49,23 +50,25 @@ h1 span{
     line-height: 0px;
     margin-top: 90px;
     margin-bottom: 60px;
+    color: green;
 }
 #margin-4{
     line-height: 0px;
     margin-bottom: 75px;
+    color: red;
 }
-.half-width img{
-    width: 70%;
-    margin-left: 65px;
-    margin-top: 40px;
+#margin-5{
+    font-family: 'Baloo Da 2', cursive;
 }
+
 .anchor-button{
     text-decoration: none;
+    font-family: 'Baloo Da 2', cursive;;
     background: linear-gradient(45deg, lightsalmon, tomato);
     padding: 10px 40px;
-    border-radius: 5px;
+    border-radius: 30px;
     color: white;
-    font-weight: 700;
+    font-size: large;
 }
 p{
     color: dimgray;
@@ -74,8 +77,10 @@ p{
     background-image: url("images/Frame 58.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+    border-radius: 5px;
     margin-left: 85px;
     margin-right: 50px;
+    margin-top: 65px;
     display: flex;
 }
 #image-2{
@@ -156,6 +161,9 @@ line-height: 0px;
 .foot-note p{
     color: whitesmoke;
 }
+.foot-note-text{
+    padding-top: 5px;
+}
 footer{
-    margin-top: 75px;
+    padding-top: 75px;
 }
