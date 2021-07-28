@@ -130,15 +130,32 @@ p{
 #youtube{
     margin-left: 100px;
     line-height: 0px;
-    margin-bottom: 5px;
 }
 #instagram{
     padding-left: 300px;
     line-height: 0px;
-    margin-bottom: 5px;
 }
 #twitter{
     padding-left: 300px;
     line-height: 0px;
-    margin-bottom: 5px;
+}
+.foot-note{
+    margin-top: 150px;
+    text-align: center;
+    background-color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 200px;   
+    border-radius: 10px;
+}
+.foot-note h2{
+padding-top: 35px;
+color: white;
+line-height: 0px;
+}
+.foot-note p{
+    color: whitesmoke;
+}
+footer{
+    margin-top: 75px;
 }
