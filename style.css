@@ -8,11 +8,29 @@ section{
     padding-bottom: 150px;
     
 }
-table{
-    background-image: url(images/background\ images.png);
-    margin: 0%;
-    background-repeat: no-repeat;
-}  
+.logo{
+    width: 5%;
+}
+.additional-info{
+    
+    margin-left: 85px;
+    margin-top: 25px;
+    display: flex;
+    background-color: whitesmoke;
+    font-family: 'Baloo Da 2', cursive;
+}
+#brand-name{
+    color: tomato;
+    padding-left: 25px;
+}
+#login{
+    padding-left: 700px;
+    color: tomato;
+}
+#reg{
+    padding-left: 50px;
+    color: tomato;
+}
 .first-section{
     width:50%;
     float: left;
