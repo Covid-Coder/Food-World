@@ -1,199 +1,225 @@
-body{
-    margin: 0;
-    font-family: 'Poppins', sans-serif, 'Atma', cursive, 'Baloo Da 2', cursive;
-    background-color: whitesmoke;
-}
-section{
-    height: 500px;
-    padding-bottom: 150px;
+body    {
+            margin: 0;
+            font-family: 'Poppins', sans-serif, 'Atma', cursive, 'Baloo Da 2', cursive;
+            background-color: whitesmoke;
+        }
+
+h1  {
+        font-size: 50px;
+        font-family: 'Atma', cursive;
+    }
     
-}
-.logo{
-    width: 4%;
-    padding-top: 2px;
-}
-.additional{
-    background-color: white;
-    background-position: 0%;
-    padding-top: 0px;  
-    box-shadow: 0px 0px 15px darkgrey; 
+p   {
+        font-family: 'Baloo Da 2', cursive;
+        color: dimgray;
+    }
 
-}
-.additional-info{
-    margin-left: 85px;
-    margin-top: 0%;
-    display: flex;
-    font-family: 'Baloo Da 2', cursive;
-}
-#brand-name{
-    color: tomato;
-    padding-left: 25px;
-}
-#login{
-    padding-left: 700px;
-    color: tomato;
-}
-#reg{
-    padding-left: 50px;
-    color: tomato;
-}
-.first-section{
-    width:50%;
-    float: left;
-    margin-left: 80px;
-    padding-left: 5%;
-}
-#image-01{
-    margin-right: 50px;
-    margin-top: 60px;
-}
+.additional     {
+                    background-color: white;
+                    background-position: 0%;
+                    padding-top: 0px;  
+                    box-shadow: 0px 0px 15px darkgrey; 
+        
+                }
+
+    .additional-info    {
+                            margin-left: 85px;
+                            margin-top: 0%;
+                            display: flex;
+                            font-family: 'Baloo Da 2', cursive;
+                        }
+
+    .logo   {
+                width: 4%;
+                padding-top: 2px;
+            }
+
+    #brand-name    {
+                        color: tomato;
+                        padding-left: 25px;
+                    }
+    
+    #login  {
+                padding-left: 700px;
+                color: tomato;
+            }
+
+    #reg    {
+                padding-left: 50px;
+                color: tomato;
+            }
+
+.first-section      {
+                        width:50%;
+                        float: left;
+                        margin-left: 80px;
+                        padding-left: 5%;
+                    }
+
+    #head-1 {
+                margin-top: 100px;
+                margin-bottom: 60px;
+                line-height: 0px;
+            }
+
+    #head-2 {
+                line-height: 0px;
+                margin-top: 0;
+                color: #1cbbe7;
+            }
+
+    #head-3 {
+                line-height: 0px;
+                margin-top: 90px;
+                margin-bottom: 60px;
+                color: green;
+            }
+
+    #head-4     {
+                    line-height: 0px;
+                    margin-bottom: 75px;
+                    color: red;
+                }
+
+    #head-5     {
+                    font-family: 'Baloo Da 2', cursive;
+                }
+
+    #image-01   {
+                    margin-right: 85px;
+                    margin-top: 60px;
+                }
 
 
-h1{
-    font-size: 50px;
-    font-family: 'Atma', cursive;
-}
+.anchor-button  {
+                    text-decoration: none;
+                    font-family: 'Baloo Da 2', cursive;;
+                    background: linear-gradient(45deg, lightsalmon, tomato);
+                    padding: 10px 40px;
+                    border-radius: 30px;
+                    color: white;
+                    font-size: large;
+                }
 
-h1 span{
-    color: orange;
-}
-p{
-    font-family: 'Baloo Da 2', cursive;
-}
+.my-self    {
+                background-image: url("images/Frame 58.jpg");
+                border-radius: 10px;
+                background-repeat: no-repeat;
+                background-size: 100%;
+                margin-left: 85px;
+                margin-right: 85px;
+                margin-top: 65px;
+                display: flex;
+            }
 
-#welcome{
-    color: #1cbbe7;
-}
-#valley{
-    color: red;
-}
-#margin-1{
-    margin-top: 100px;
-    margin-bottom: 60px;
-    line-height: 0px;
-}
-#margin-2{
-    line-height: 0px;
-    margin-top: 0;
-}
-#margin-3{
-    line-height: 0px;
-    margin-top: 90px;
-    margin-bottom: 60px;
-    color: green;
-}
-#margin-4{
-    line-height: 0px;
-    margin-bottom: 75px;
-    color: red;
-}
-#margin-5{
-    font-family: 'Baloo Da 2', cursive;
-}
+    #image-2    {
+                    padding-left: 150px;
+                    padding-top: 25px;
+                }
 
-.anchor-button{
-    text-decoration: none;
-    font-family: 'Baloo Da 2', cursive;;
-    background: linear-gradient(45deg, lightsalmon, tomato);
-    padding: 10px 40px;
-    border-radius: 30px;
-    color: white;
-    font-size: large;
-}
-p{
-    color: dimgray;
-}
-.my-self{
-    background-image: url("images/Frame 58.jpg");
-    border-radius: 10px;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    margin-left: 85px;
-    margin-right: 50px;
-    margin-top: 65px;
-    display: flex;
-}
-#image-2{
-    padding-left: 150px;
-    padding-top: 25px;
-}
-#about-me{
-    width: 35%;
-    margin-top: 150px;
-    padding-left: 150px;
-}
+    #about-me   {
+                    width: 35%;
+                    margin-top: 150px;
+                    padding-left: 150px;
+                }
 
-#recipies h1{
-    text-align: center;
-    margin-bottom: 0%;
-}
-#recipies p{
-    width: 50%;
-    text-align: center;
-    margin-left: 325px;
-}
-.images-title-des{
-    margin-top: 50px;
-    display: flex;
-}
-.images-title-des p{
-    width: 85%;
+#recipies-description   {
+                            margin-top: 100px;
+                            margin-left: 85px;
+                            margin-right: 85px;
+                        }
+    #recipies h1    {
+                        text-align: center;
+                        margin-bottom: 0%;
+                    }
    
-}
-.images-title-des img{
-    width: 95%;
-}
-.food-image{
-    margin-left: 7%;
-    margin-right: 7%;
-    box-shadow: 10px 10px 30px 10px grey;
-    border-radius: 25px;
-    height: 85%;
-    margin-top: 30px;
-    padding-top: 12px;
-    padding-left: 12px;
-}
-.subscribers{
-    margin-top: 75px;
-    margin-left: 7%;
-    margin-right: 7%;
-    display: flex;
-    text-align: center;
-    box-shadow: 5px 5px 10px lightsalmon;
-    border-radius: 25px;
-}
-#youtube{
-    margin-left: 100px;
-    line-height: 0px;
-}
-#instagram{
-    padding-left: 300px;
-    line-height: 0px;
-}
-#twitter{
-    padding-left: 300px;
-    line-height: 0px;
-}
-.foot-note{
-    margin-top: 150px;
-    text-align: center;
-    background-color: black;
-    margin-left: 5%;
-    margin-right: 5%;
-    height: 200px;   
-    border-radius: 10px;
-}
-.foot-note h2{
-padding-top: 35px;
-color: white;
-line-height: 0px;
-}
-.foot-note p{
-    color: whitesmoke;
-}
-.foot-note-text{
-    padding-top: 5px;
-}
-footer{
-    padding-top: 75px;
-}
+    #recipies p     {
+                        width: 50%;
+                        text-align: center;
+                        margin-left: 325px;
+                    }
+
+    .images-title-des   {
+                            margin-top: 50px;
+                            display: flex;
+                        }
+
+    .images-title-des p {
+                            width: 85%;    
+                        }
+
+    .images-title-des img   {
+                                width: 95%;
+                            }
+
+    .food-image     {
+                        margin-left: 5%;
+                        margin-right: 5%;
+                        box-shadow: 10px 10px 30px 10px grey;
+                        border-radius: 25px;
+                        height: 85%;
+                        margin-top: 30px;
+                        padding-top: 12px;
+                        padding-left: 12px;
+                    }
+
+    .subscribers    {
+                        margin-top: 150px;
+                        margin-left: 85px;
+                        margin-right: 85px;
+                        display: flex;
+                        text-align: center;
+                        box-shadow: 5px 5px 10px lightsalmon;
+                        border-radius: 25px;
+                    }
+
+    #youtube    {
+                    padding-left: 50px;
+                    line-height: 0px;
+                }
+
+    #instagram  {
+                    padding-left: 275px;
+                    line-height: 0px;
+                }
+
+    #twitter    {
+                    padding-left: 275px;
+                    line-height: 0px;
+                }
+
+footer  {
+            height: 200px;
+            margin-top: 125px;
+            text-align: center;
+            background-color: black;
+        }
+
+    .foot-note h2   {
+                        color: white;
+                        line-height: 0px;
+                        padding-top: 35px;
+                    }
+
+    .foot-pragraph  {
+                        color: whitesmoke;
+                        font-size: larger;
+                        line-height: 0px;
+                        padding-top: 8px;
+                    }
+
+    input           {
+                        text-align: center; 
+                        color: rgb(184, 36, 85);
+                    }
+
+
+    .foot-pragraph-input    {
+                                padding-top: 27px;
+                            }
+
+    .foot-pragraph-input p  {
+                                color: whitesmoke;
+                                line-height: 0px;    
+                            }
+
