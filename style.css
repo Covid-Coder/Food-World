@@ -31,7 +31,8 @@ p   {
 
     .logo   {
                 width: 4%;
-                padding-top: 2px;
+                padding-top: 3px;
+                padding-bottom: 3px;
             }
 
     #brand-name    {
@@ -49,12 +50,21 @@ p   {
                 color: tomato;
             }
 
-.first-section      {
-                        width:50%;
-                        float: left;
-                        margin-left: 80px;
-                        padding-left: 5%;
-                    }
+#first-section  {
+
+                    margin-left: 85px;
+                    margin-right: 85px;
+                    margin-top: 25px;
+                    display: flex;
+                }
+
+    .part-01    {
+                    padding-left: 25px;
+                }
+
+   .part-01 p  {
+                    width: 50%;
+                }
 
     #head-1 {
                 margin-top: 100px;
@@ -85,11 +95,11 @@ p   {
                     font-family: 'Baloo Da 2', cursive;
                 }
 
-    #image-01   {
-                    margin-right: 85px;
-                    margin-top: 60px;
-                }
-
+    #image-01 img  {
+                        width: 500px; 
+                        height: 575px;
+                        padding-top: 25px;
+                    }
 
 .anchor-button  {
                     text-decoration: none;
@@ -108,11 +118,13 @@ p   {
                 background-size: 100%;
                 margin-left: 85px;
                 margin-right: 85px;
-                margin-top: 65px;
+                margin-top: 100px;
                 display: flex;
             }
 
-    #image-2    {
+    #image-2     {
+                    width : 75%; 
+                    height: 535px;
                     padding-left: 150px;
                     padding-top: 25px;
                 }
