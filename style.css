@@ -62,8 +62,13 @@ p   {
                     padding-left: 25px;
                 }
 
-   .part-01 p  {
+    .part-01 h1 {
+                    text-align: justify;
+                }
+
+    .part-01 p  {
                     width: 50%;
+                    text-align: justify;
                 }
 
     #head-1 {
@@ -133,6 +138,10 @@ p   {
                     width: 35%;
                     margin-top: 150px;
                     padding-left: 150px;
+                }
+
+    #about-me p {
+                    text-align: justify;
                 }
 
 #recipies-description   {
